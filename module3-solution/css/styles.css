@@ -1,0 +1,81 @@
+*, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  font-family: 'Patrick Hand', cursive;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #B0D4CB;
+}
+
+/***********    Navigation     ***************/
+.navbar {
+  background-color: #cf9acdfb;
+  border-style: solid;
+  border-radius: 0;
+}
+.navbar .navbar-brand {
+  color:  darkblue;
+  font-size: 35px;
+  font-weight: bold;
+ }
+
+.navbar-default .navbar-toggle {
+  border-color: darkgray;
+}
+
+.navbar-header a {
+  padding-left: 5vw;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+button {
+  position: absolute;
+  top: 9px;
+  right: 5px;
+}
+
+.row.menu{
+background-color: red;
+}
+
+div section {
+  background-color: silver;
+  text-align: center;
+  position: relative;
+}
+section h2 {
+  text-align: center;
+}
+section p {
+  text-align: left;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+a.go-back-top{
+  position: absolute;
+  bottom: 30px;
+  right: 35px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+#menu-items li:nth-child(1), #menu-items li:nth-child(2){
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: gray;
+}
+
+.navbar-collapse ul{
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  margin: 0 -15px;
+}
